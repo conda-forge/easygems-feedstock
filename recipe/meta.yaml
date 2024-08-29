@@ -39,7 +39,7 @@ test:
     - pip
 
 about:
-  home: https://easy.gems.dkrz.de
+  home: https://github.com/mpimet/easygems
   summary: Processing tools around km-scale earth system modeling
   license: 'MIT'
   license_file: LICENSE
