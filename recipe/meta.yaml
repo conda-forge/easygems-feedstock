@@ -1,5 +1,5 @@
 {% set name = "easygems" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/easygems-{{ version }}.tar.gz
-  sha256: 534eced8e28ac284e04d833ad7e37ea9f446d0b83e4cb016667521f250c83c66
+  sha256: 63e4cabd573ba2518f1eff4305323a5f73ca541db509cb8cb8c9acc0b1051376
 
 build:
   noarch: python
@@ -23,10 +23,10 @@ requirements:
   run:
     - python >=3.10
     - numpy
-    - scipy <1.14.0
+    - scipy
     - xarray
     - cf_xarray
-    - healpy
+    - healpy >=1.16.3
     - matplotlib-base
     - cartopy
 
@@ -39,7 +39,7 @@ test:
     - pip
 
 about:
-  home: https://easy.gems.dkrz.de
+  home: https://github.com/mpimet/easygems
   summary: Processing tools around km-scale earth system modeling
   license: 'MIT'
   license_file: LICENSE

@@ -3,7 +3,7 @@ About easygems-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/easygems-feedstock/blob/main/LICENSE.txt)
 
-Home: https://easy.gems.dkrz.de
+Home: https://github.com/mpimet/easygems
 
 Package license: MIT
 
