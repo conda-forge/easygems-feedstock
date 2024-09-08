@@ -1,5 +1,5 @@
 {% set name = "easygems" %}
-{% set version = "0.0.10" %}
+{% set version = "0.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/easygems-{{ version }}.tar.gz
-  sha256: f06a449f0d4ab123925086d2fc6c1a7085a790301f0e9cdc1ed15803426beb03
+  sha256: b8c524ee19031976d6aa3685508fc1df8b1744a7df1ca22487ffa29d5ece4b15
 
 build:
   noarch: python
@@ -21,6 +21,7 @@ requirements:
     - poetry-dynamic-versioning >=1.0.0,<2.0.0
     - pip
   run:
+    - healpix
     - python >=3.10
     - numpy
     - scipy
