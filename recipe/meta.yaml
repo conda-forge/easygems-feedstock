@@ -1,13 +1,13 @@
 {% set name = "easygems" %}
-{% set version = "0.0.13" %}
+{% set version = "0.0.14" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/easygems-{{ version }}.tar.gz
-  sha256: f1010b3907dd215215c4479e78990f516d4c5a98a614ffc62bb6cb9dfe6ec473
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/easygems-{{ version }}.tar.gz
+  sha256: 71d1d070caf32eda394ec2e6b6ea8396e5c1d26664571b38d0c0500863236404
 
 build:
   noarch: python
