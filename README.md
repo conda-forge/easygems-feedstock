@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@lkluft](https://github.com/lkluft/)
 * [@mahf708](https://github.com/mahf708/)
 
