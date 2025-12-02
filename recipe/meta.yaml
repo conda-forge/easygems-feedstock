@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "easygems" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/easygems-{{ version }}.tar.gz
-  sha256: aa64b67a4b541654aac7910496caedb4d8581c727fa90a44ef6a7c88ddd7a7d1
+  sha256: c10162ee0ecb9aab70d5cca7f349af7b467156e8ffaa01dfefcb869503f4fc45
 
 build:
   noarch: python
