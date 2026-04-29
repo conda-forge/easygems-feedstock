@@ -30,6 +30,7 @@ requirements:
     - cf_xarray
     - matplotlib-base
     - healpy
+    - cartopy
     - pyproj
     - regionmask
 
