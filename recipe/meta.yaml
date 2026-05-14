@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "easygems" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/easygems-{{ version }}.tar.gz
-  sha256: 44df78c4e602d344032f7ce4d3b8e38b58604439ffaaf39487ea242da2b5cf3c
+  sha256: 9170ce0a2f9dc134f8c3db9aea24d86ae650f47252bdd1c67575e5eedfab858b
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ requirements:
     - healpy
     - cartopy
     - pyproj
-    - regionmask
+    - regionmask >=0.13.0
 
 test:
   imports:
